@@ -1,0 +1,102 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  --primary-color: #0b090a;
+  --secondary-color: #343a40;
+  max-width: 50vw;
+}
+
+/* Navbar-component */
+.sideNav-div{
+  align-items: center;
+  width: 50vw;
+}
+.mail-heading{
+  color: var(--primary-color);
+  font-size: 3rem;
+  padding: 1rem;
+}
+.navigation{
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.navLink{
+  padding: 5px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  width: 33.33%;
+}
+#unread-div{
+  display: flex;
+  justify-content: flex-start;;
+}
+
+/* -------------------filter div--------------- */
+.filter-div{
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+
+/*----------- EMAIL Card ---------------------*/
+.head{
+  color: var(--primary-color);
+  margin: 1rem;
+  height: 5vh;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.message-div{
+  font-size: larger;
+  margin: 0 1rem;
+  text-align: left;
+}
+.buttons-div{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.button-left{
+  margin-right: auto;
+}
+.button-right{
+  display: flex;
+  align-items: center;
+}
+.card-buttons-3{
+  margin-left: .5rem;
+}
+#delete-button{
+  color: red;
+  border: 1px solid red;
+}
+#delete-button:hover{
+  color: white;
+  background-color: red;
+}
+#star-button:hover{
+  background-color: gold;
+  border: 1px solid gold;
+  transition: none;
+}
+#read-button{
+  color: rgb(255, 149, 0);
+  border: 1px solid rgb(255, 149, 0);
+}
+#read-button:hover{
+  color: white;
+  background-color: rgb(255, 149, 0);
+}
+#spam-button{
+  color: rgb(11, 44, 206);
+  border: 1px solid rgb(11, 44, 206);
+}
+#spam-button:hover{
+  color: white;
+  background-color: rgb(11, 44, 206);
+}
+#more-link:hover{
+ border-bottom: 2px solid rgb(11, 44, 206);
+}
